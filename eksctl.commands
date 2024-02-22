@@ -1,0 +1,19 @@
+eksctl create cluster --name my-kube --region us-east-1 --nodegroup-name essien-nodes --node-type t2.medium --managed --nodes 2
+
+
+eksctl delete cluster my-kube --region us-east-1
+
+kubectl create -f .
+
+Kubectl get services
+
+eksctl create cluster \
+  --name my-kube \
+  --region us-east-1 \
+  --version 1.21 \
+  --nodegroup-name essien-nodes \
+  --node-type t2.medium \
+  --nodes 2 \
+  --nodes-min 1 \
+  --nodes-max 4 \
+  --managed

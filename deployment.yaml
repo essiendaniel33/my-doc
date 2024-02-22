@@ -1,0 +1,20 @@
+---
+apiVersion: apps/v1  
+kind: Deployment     
+metadata:
+  name: my-app       
+spec:
+  replicas: 3        
+  selector:
+    matchLabels:     
+      app: blog-app  
+  template:
+    metadata:        
+      labels:        
+        app: blog-app
+    spec:
+      containers:
+      - name: blog-app
+        image: essiendaniel33/blog-app-cicd:V005
+        ports:
+        - containerPort: 8081
