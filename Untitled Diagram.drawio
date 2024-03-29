@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-29T10:53:56.463Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="TlHud0ShrI5Y5Xgd54bV" version="24.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-29T10:55:28.619Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="BCnjbn_g2-3dw0TOgOAM" version="24.0.8" type="github">
   <diagram name="Page-1" id="gSooiQx2TL4_eroyyXrg">
     <mxGraphModel dx="1194" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -69,9 +69,12 @@
         </mxCell>
         <mxCell id="qh6bIkeYXSryROl8LY-i-125" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="qh6bIkeYXSryROl8LY-i-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="314.5" y="22" as="sourcePoint" />
-            <mxPoint x="314.5" y="82" as="targetPoint" />
+            <mxPoint x="314.5" y="21" as="sourcePoint" />
+            <mxPoint x="314.5" y="81" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="qh6bIkeYXSryROl8LY-i-104" value="Availability zone &lt;b&gt;B&lt;/b&gt;" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_availability_zone;strokeColor=#545B64;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#545B64;dashed=1;" vertex="1" parent="qh6bIkeYXSryROl8LY-i-1">
+          <mxGeometry x="360" y="47.5" width="220" height="492.5" as="geometry" />
         </mxCell>
         <mxCell id="qh6bIkeYXSryROl8LY-i-122" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="qh6bIkeYXSryROl8LY-i-43">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -96,9 +99,6 @@
         </mxCell>
         <mxCell id="qh6bIkeYXSryROl8LY-i-97" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.auto_scaling2;" vertex="1" parent="1">
           <mxGeometry x="385" y="463" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qh6bIkeYXSryROl8LY-i-104" value="Availability zone &lt;b&gt;B&lt;/b&gt;" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_availability_zone;strokeColor=#545B64;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#545B64;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="750" y="120" width="220" height="520" as="geometry" />
         </mxCell>
         <mxCell id="qh6bIkeYXSryROl8LY-i-107" value="" style="line;strokeWidth=2;direction=south;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="26" y="320" width="10" height="120" as="geometry" />
@@ -158,6 +158,9 @@
               <mxPoint x="229" y="441.15" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="qh6bIkeYXSryROl8LY-i-126" value="Availability zone &lt;b&gt;B&lt;/b&gt;" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_availability_zone;strokeColor=#545B64;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#545B64;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="146" y="117.5" width="220" height="492.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
